@@ -1,0 +1,190 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,400i,500,500i,600,600i,700');
+
+
+/* Variables */
+body {
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 34px;
+  color: #ff4d62;
+  text-transform: uppercase;
+}
+
+h4 {
+  color:#444456;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+/*------- HEADER -------*/
+
+#header {
+  background-image: url("https://image.dnevnik.hr/media/images/1920x1080/Jan2016/61186084-tose-proeski.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%; 
+  height: 700px;
+  padding-top: 250px;
+  background-size: cover; 
+}
+
+.quote {
+  font-weight: 300;
+  color: #232d36;
+  background-color: #FF4D62;
+  display: inline;
+  line-height: 50px; 
+}
+
+.autor {
+  color: #ff4d62;
+  display: inline;
+  line-height: 50px;
+}
+
+/*------- INTRO -------*/
+
+#intro {
+  padding: 100px 0 20px 0;
+  margin-bottom: 80px;
+  min-height: 100%;
+}
+
+#intro p {
+  font-size: 16px;
+}
+
+#intro .profile {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: none;
+}
+
+#intro .btn {
+  margin-top: 30px;
+  padding: 15px 30px;
+  border-radius: 0px;
+  background: #ff4d62;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+}
+
+/*------- besthit -------*/
+
+#besthit {
+  background-image: url(https://static.pexels.com/photos/109123/pexels-photo-109123.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  min-height: 100%;
+  padding: 100px 0;
+}
+
+#besthit h2 {
+  margin-bottom: 50px;
+}
+
+#besthit iframe {
+  border: 5px solid #ff4d62;
+}
+
+/*------- TABLE -------*/
+
+#table {
+  padding: 100px 0;
+}
+
+#table h2 {
+  margin-bottom: 50px;
+}
+
+.table {
+  border: 1px solid #d6d6d6;
+}
+
+/*------- FOOTER -------*/
+
+footer {
+  background-color: #232d36;
+  height: 200px;
+  padding: 60px 0;
+}
+
+footer h5 {
+  font-size: 16px;
+  color: #fff;
+  padding-top: 15px;
+}
+
+footer a {
+  color: #ff4d62;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer #icon a {
+  padding: 0 15px;
+}
+
+
+/*------- max-width 900 px -------*/
+
+@media screen and (max-width:900px) {
+  
+#besthit iframe {
+    margin: 10px 0;
+  }
+
+/*------- max-width 600 px -------*/
+
+@media screen and (max-width:560px) {
+
+  .mobile_hide {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  h4 {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  #intro .profile {
+    display: block;
+    margin: -30px auto 0;
+  }
+  
+  #besthit {
+    padding: 50px 0;
+  }
+
+  #besthit iframe{
+    margin: 10px 0;
+  }
+
+} 
+
+
+
+
